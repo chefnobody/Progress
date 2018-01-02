@@ -42,9 +42,6 @@ static NSString * const kAFFileDownloadAPIBaseURLString = @"";
 
 - (void)downloadFileWithIndex:(int)index fileName:(NSString *)fileName url:(NSString*)url {
 
-    // Create URL parameters
-    //NSDictionary *parameters = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInt:index], @"index", nil];
-
     // Create request
     NSMutableURLRequest *request = [self requestWithMethod:@"GET"
                                                       path:url
