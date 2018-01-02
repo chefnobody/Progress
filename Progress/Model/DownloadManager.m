@@ -72,9 +72,9 @@
         
         download = [[Download alloc] init];
         download.name = @"Silver Fish Image";
-        download.summary = @"Sushi restaurant back drop.";
-        download.fileName = @"fish.jpg";
-        download.downloadURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@/files/fish.jpg", host]];
+        download.summary = @"Website background.";
+        download.fileName = @"fish-wall.png";
+        download.downloadURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@/images/fish-wall.png", host]];
         download.downloading = NO;
         download.percentageDownloaded = 0.0f;
         [newDownloads addObject:download];
